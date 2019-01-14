@@ -1,0 +1,88 @@
+.mes-home-box{
+    header{
+        display: block;
+        height: .8rem;
+        padding: 0 .3rem;
+        .mes-home-box-logo{
+            width: .94rem;
+            height: .3rem;
+            margin-top: .25rem;
+            float: left;
+        };
+        .mes-home-box-r{
+            max-height: .36rem;
+            background: #f4f2ee;
+            padding: .07rem .2rem .07rem .42rem;
+            border-radius: .2rem;
+            margin-top: .22rem;
+            position: relative;
+            float: right;
+            img{
+                top: 50%;
+                left: .14rem;
+                width: .18rem;
+                height: .24rem;
+                margin-top: -.12rem;
+                position: absolute;
+            };
+            p{
+                display: block;
+                line-height: 100%;
+                color: #666;
+                font-size: .22rem;
+            }
+        }
+    };
+    .mes-home-box-map{
+        padding: 0 .3rem;
+        position: relative;
+        a{
+            width: 100%;
+            height: 3.44rem;
+            overflow: hidden;
+            display: block;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    };
+    .home-ul-navs{
+        list-style: none;
+        li{
+            width: 33%;
+            text-align: center;
+            float: left;
+            margin:.4rem 0;
+            a{
+                color: #333;
+                text-decoration: none;
+                i{
+                    display: block;
+                    color: #666;
+                    font-size: .46rem;
+                    margin: 0 auto;
+                };
+                p{
+                    line-height: 100%;
+                    margin-top: .2rem;
+                    font-size: .26rem;
+                    
+                }
+            }
+        }
+    };
+    .mes-home-more{
+        display: block;
+        width: 3rem;
+        height: .6rem;
+        line-height: .6rem;
+        background: #f4f2ee;
+        text-align: center;
+        border-radius: .06rem;
+        margin: .8rem auto 1.5rem;
+        font-size: .24rem;
+        color:#333;
+        text-decoration: none;
+    }
+}

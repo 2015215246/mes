@@ -1,0 +1,56 @@
+.mes-home-list-box{
+    width: 100%;
+    ul{
+        overflow: hidden;
+        padding: 0 .2rem;
+        list-style: none;
+        li{
+            margin:.1rem 0;
+            width:47%;
+            padding: .1rem;
+            float: left;
+            // background: #f4f2ee;
+            a{
+                color: #333;
+                img{
+                    height: 2.6rem;
+                    display: block;
+                    width: 100%;
+                    margin:0 auto
+                }
+            };
+            .goodInfo{
+                padding: .2rem .24rem;
+                a{
+                    text-align: left;
+                    color: #333;
+                    .goodInfo-div{
+                        font-size: .28rem;
+                        line-height: .5rem;
+                    };
+                };
+                .home-list-price{
+                    margin-top: .1rem;
+                    span{
+                        line-height: .21rem;
+                        font-size: .24rem;
+                        float: left;
+                        em{
+                        font-size: .28rem;
+                        }
+                    };
+                    em{
+                        width: .21rem;;
+                        height: .21rem;
+                        border: 0;
+                        display: block;
+                        float: right;
+                    }
+                }
+            }
+        };
+        li:nth-child(3n){
+            width: 96%;
+        }
+    }
+}

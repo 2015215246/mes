@@ -1,0 +1,5 @@
+const GET_DETAIL_DATA = 'GET_DETAIL_DATA'
+
+export {
+    GET_DETAIL_DATA
+}

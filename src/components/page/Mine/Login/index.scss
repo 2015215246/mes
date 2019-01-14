@@ -1,0 +1,229 @@
+
+.login-by-user-box{
+    position: relative;
+    .login-nav{
+        display: block;
+        overflow: hidden;
+        nav{
+            display: block;
+            overflow: hidden;
+            ul{
+                li{
+                    width: 50%;
+                    height: 1rem;
+                    line-height: 1rem;
+                    background: #fff;
+                    text-align: center;
+                    font-size: .28rem;
+                    color: #9c9c9c;
+                    border-bottom: .02rem solid #d8d8d8;
+                    float: left;
+                }
+            };
+        };
+        .login-nav-btn{
+            display: block;
+            height: .04rem;
+            width: 50%;
+            left: 50%;
+            position: absolute;
+            transition: .5s;
+            span{
+                display: block;
+                width: 1.44rem;
+                height: 100%;
+                background: #333;
+                margin: -.04rem auto;
+            };
+        }
+    };
+    .login-content{
+        padding: 0 .4rem;
+        font-size: .3rem;
+        .auth-content{
+            display: none;
+            .auth-loginItem{
+                height: 1.1rem;
+                border-bottom: .02rem solid #a4a4a4;
+                position: relative;
+                .numbCode{
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    width: .9rem;
+                    height: .5rem;
+                    line-height: .5rem;
+                    border-right: .02rem solid #a4a4a4;
+                    margin-top: -.25rem;
+                };
+                .auth-user-phone{
+                    width: 100%;
+                    height: 1.1rem;
+                    font-size: .3rem;
+                    padding-left: 1.3rem;
+                    border: 0;
+                    outline: none;
+                };
+                .auth-password-phone{
+                    width: 100%;
+                    height: 1.1rem;
+                    font-size: .3rem;
+                    border: 0;
+                    outline: none;
+                };
+                .auth-password-gain{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    line-height: 1.1rem;
+                    font-size: .3rem;
+                    border: 0;
+                    outline: none;
+                    width: 1.7rem;
+                }
+            };
+            .auth-btn{
+                width: 100%;
+                height: .9rem;
+                line-height: .9rem;
+                text-align: center;
+                color: #fff;
+                font-size: .34rem;
+                background: #1d1d1d;
+                border-radius: .06rem;
+                border: 0;
+                margin-top: 1rem;
+            }
+        };
+        .number-content{
+            display: none;
+            .number-content-user{
+                outline: none;
+                height: 1.1rem;
+                border-bottom: .02rem solid #a4a4a4;
+                position: relative;
+                input{
+                    outline: none;
+                    width: 100%;
+                    height: 1.1rem;
+                    font-size: .3rem;
+                    border: 0
+                }
+            };
+            .number-content-user{
+                outline: none;
+                height: 1.1rem;
+                border-bottom: .02rem solid #a4a4a4;
+                input{
+                    width: 100%;
+                    height: 1.1rem;
+                    font-size: .3rem;
+                    border: 0
+                }
+            };
+            .number-content-word{
+                outline: none;
+                margin-top: .3rem;
+                .number-content-l{
+                    font-size: .24rem;
+                    float: left;
+                    color: #333;
+                };  
+                .number-content-r{
+                    font-size: .24rem;
+                    float: right;
+                    color: #333;
+                }
+            };
+            .auth-btn{
+                width: 100%;
+                height: .9rem;
+                line-height: .9rem;
+                text-align: center;
+                color: #fff;
+                font-size: .34rem;
+                background: #1d1d1d;
+                border-radius: .06rem;
+                margin-top: .36rem;
+                border: 0;
+            }
+        };
+        .reg-content{
+            position: relative;
+            .reg-loginItem{
+                
+                height: 1.1rem;
+                border-bottom: .02rem solid #a4a4a4;
+                position: relative;
+                .reg-numbCode{
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    width: .9rem;
+                    height: .5rem;
+                    line-height: .5rem;
+                    border-right: .02rem solid #a4a4a4;
+                    margin-top: -.25rem;
+                };
+                .reg-user-phone{
+                    width: 100%;
+                    height: 1.1rem;
+                    font-size: .3rem;
+                    padding-left: 1.3rem;
+                    border: 0;
+                    outline: none;
+                };
+                .reg-password-phone{
+                    width: 100%;
+                    height: 1.1rem;
+                    font-size: .3rem;
+                    border: 0;
+                    outline: none;
+                };
+                .reg-password-gain{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    line-height: 1.1rem;
+                    font-size: .3rem;
+                    border: 0;
+                    outline: none;
+                    width: 1.7rem;
+                };
+            };
+            .reg-content-user{
+                outline: none;
+                height: 1.1rem;
+                border-bottom: .02rem solid #a4a4a4;
+                input{
+                    outline: none;
+                    width: 100%;
+                    height: 1.1rem;
+                    font-size: .3rem;
+                    border: 0
+                }
+            };
+            .reg-number{
+                margin-top: .3rem;
+                a{
+                    font-size: .24rem;
+                    float: left;
+                    color: #333;
+                    text-decoration: none;
+                }
+            };
+            .reg-btn{
+                width: 100%;
+                height: .9rem;
+                line-height: .9rem;
+                text-align: center;
+                color: #fff;
+                font-size: .34rem;
+                background: #1d1d1d;
+                border-radius: .06rem;
+                margin-top: .36rem;
+                border: 0;
+            }
+        }
+    } 
+};
